@@ -1,13 +1,19 @@
 {
   "name": "pm2jq",
-  "version": "0.1.0",
-  "private": true,
-  "bin": "./bin/pm2jq.js",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/pm2jq.js",
-    "pkg": "pkg . -t  node12-win-x64 -o pm2jq"
+    "pm2jq": "bin/pm2jq.js"
   },
-  "pkg": {},
+  "keywords": ["pm2"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuandeshoulian/pm2tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuandeshoulian/pm2tool/issues"
+  },
+  "homepage": "https://github.com/yuandeshoulian/pm2tool",
   "dependencies": {
     "commander": "^6.1.0",
     "pm2": "^4.5.0"
