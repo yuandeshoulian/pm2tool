@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var program = require('commander');
 //const version = require('../package.json').version;
 var pm2 = require('pm2');
