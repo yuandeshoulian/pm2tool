@@ -1,10 +1,7 @@
 {
   "name": "pm2jq",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
-  "scripts": {
-    "pm2jq": "bin/pm2jq.js"
-  },
   "keywords": [
     "pm2"
   ],
@@ -21,7 +18,7 @@
     "pm2": "^4.5.0"
   },
   "bin": {
-    "pm2jq": "pm2jq.js"
+    "pm2jq": "./bin/pm2jq.js"
   },
   "devDependencies": {},
   "author": "",
