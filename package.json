@@ -1,0 +1,15 @@
+{
+  "name": "pm2jq",
+  "version": "0.1.0",
+  "private": true,
+  "bin": "./bin/pm2jq.js",
+  "scripts": {
+    "start": "node ./bin/pm2jq.js",
+    "pkg": "pkg . -t  node12-win-x64 -o pm2jq"
+  },
+  "pkg": {},
+  "dependencies": {
+    "commander": "^6.1.0",
+    "pm2": "^4.5.0"
+  }
+}
